@@ -1,35 +1,68 @@
-body {
-    font-family: Arial;
+/* Profile Card */
+.profile-section {
+    background: #f4f7fb;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin: 20px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.profile-container img {
+    width: 180px;
+    border-radius: 12px;
+    border: 3px solid #4CAF50;
+}
+
+.profile-details h3 {
     margin: 0;
-    padding: 0;
+    font-size: 22px;
+    color: #333;
 }
 
-header {
-    background: #4CAF50;
+.profile-details p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Highlight text */
+.profile-section p {
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+th {
+    background: linear-gradient(to right, #4CAF50, #2c3e90);
     color: white;
-    text-align: center;
-    padding: 20px;
+    padding: 12px;
+    text-align: left;
 }
 
-nav {
-    background: #333;
+td {
     padding: 10px;
-    text-align: center;
+    border-bottom: 1px solid #ddd;
 }
 
-nav a {
-    color: white;
-    margin: 10px;
-    text-decoration: none;
+tr:nth-child(even) {
+    background: #f9f9f9;
 }
 
-section {
-    padding: 20px;
-}
-
-footer {
-    background: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 10px;
+tr:hover {
+    background: #e6f2ff;
+    transition: 0.3s;
 }
