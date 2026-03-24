@@ -141,3 +141,57 @@ footer {
     padding: 12px;
     margin-top: 20px;
 }
+/* ========================= */
+/* 📱 MOBILE RESPONSIVE */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    /* Header */
+    header h1 {
+        font-size: 22px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    /* Navigation */
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Profile layout */
+    .profile-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-container img {
+        width: 140px;
+    }
+
+    /* Table scroll */
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    /* Section padding */
+    section {
+        padding: 15px;
+    }
+
+    /* Profile section margin */
+    .profile-section {
+        margin: 10px;
+        padding: 20px;
+    }
+}
