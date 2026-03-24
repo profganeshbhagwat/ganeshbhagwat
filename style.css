@@ -1,4 +1,36 @@
-/* Profile Card */
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+/* Profile Section */
 .profile-section {
     background: #f4f7fb;
     padding: 30px;
@@ -7,6 +39,7 @@
     margin: 20px;
 }
 
+/* Profile Layout */
 .profile-container {
     display: flex;
     align-items: center;
@@ -31,7 +64,7 @@
     color: #555;
 }
 
-/* Highlight text */
+/* Text */
 .profile-section p {
     line-height: 1.6;
     color: #444;
@@ -42,15 +75,14 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    overflow: hidden;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 th {
     background: linear-gradient(to right, #4CAF50, #2c3e90);
     color: white;
     padding: 12px;
-    text-align: left;
 }
 
 td {
@@ -64,5 +96,17 @@ tr:nth-child(even) {
 
 tr:hover {
     background: #e6f2ff;
-    transition: 0.3s;
+}
+
+/* Contact */
+section {
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
